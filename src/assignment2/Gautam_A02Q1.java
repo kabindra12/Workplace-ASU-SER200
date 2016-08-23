@@ -26,15 +26,7 @@ public class Gautam_A02Q1 {
 		System.out.println("What is y2? ");
 		y2 = scan.nextFloat();
 		distance = 2; //to do
-		System.out.println("The distance is "+distance);
-		
-		System.out.println("This si update i want to change this.");
-		
-		
-		System.out.println("I am stashed");
-		System.out.println("I will push this first and later get from stash");
-		
-		
+		System.out.println("The distance is "+distance);		
 	}
 
 }
