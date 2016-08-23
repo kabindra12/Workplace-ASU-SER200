@@ -30,6 +30,8 @@ public class Gautam_A02Q1 {
 		
 		System.out.println("This si update i want to change this.");
 		
+		System.out.println("I will push this first and later get from stash");
+		
 	}
 
 }
