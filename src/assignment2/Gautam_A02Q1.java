@@ -28,6 +28,8 @@ public class Gautam_A02Q1 {
 		distance = 2; //to do
 		System.out.println("The distance is "+distance);
 		
+		System.out.println("This is before ");
+		
 	}
 
 }
