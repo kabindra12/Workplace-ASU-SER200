@@ -17,15 +17,15 @@ public class Gautam_A02Q1 {
 	public static void main(String[] args) {
 		float x1,y1,x2,y2,distance;
 		Scanner scan = new Scanner(System.in);
-		System.out.println("What is x1? ");
+		System.out.print("What is x1? ");
 		x1 = scan.nextFloat();
-		System.out.println("What is y1? ");
+		System.out.print("What is y1? ");
 		y1 = scan.nextFloat();
-		System.out.println("What is x2? ");
+		System.out.print("What is x2? ");
 		x2 = scan.nextFloat();
-		System.out.println("What is y2? ");
+		System.out.print("What is y2? ");
 		y2 = scan.nextFloat();
-		distance = 2; //to do
+		distance =  (float) Math.sqrt((float)(Math.pow((x2-x1),2) +(float) Math.pow((y2-y1), 2)));
 		System.out.println("The distance is "+distance);		
 	}
 
