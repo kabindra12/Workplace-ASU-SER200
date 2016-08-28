@@ -1,5 +1,3 @@
-package assignment2;
-
 
 /**
  * Program to compute and display the distance between two points in a plane.
