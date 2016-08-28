@@ -1,6 +1,3 @@
-package assignment1;
-
-
 /**
  * Program to convert Fahrenheit to Kelvin by reading the Fahrenheit temperature from the user.
  * 
