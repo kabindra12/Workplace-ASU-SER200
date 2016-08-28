@@ -1,9 +1,21 @@
-package work;
+
+
+
+/**
+ * A program that computes and displays the result of rolling
+ * several 6-sided dice and adding a number. Prompt the user for
+ * the number of dice and the number to add.
+ * 
+ * Completion time: 40 min
+ * 
+ * @author Kiran Gautam
+ * @version 1.0
+ */
 
 import java.util.Random;
 import java.util.Scanner;
 
-public class Solution3 {
+public class Gautam_A02Q3 {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);

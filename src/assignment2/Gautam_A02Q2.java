@@ -1,9 +1,20 @@
 package assignment2;
 
+/**
+ * An application that reads the semiperimeter and sides of a triangle 
+ * from the user, and prints its area.
+ * 
+ * Completion time: 30 min
+ * 
+ * @author Kiran Gautam
+ * @version 1.0
+ */
+
+
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-public class Gautam_A02Q02 {
+public class Gautam_A02Q2 {
 	
 	public static void main(String[] args) {
 		float s,a,b,c,area;
