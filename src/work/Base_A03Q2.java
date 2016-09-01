@@ -43,7 +43,7 @@ public class Base_A03Q2 {
 
 	public static class PairOfDice {
 
-		Die d1, d2;
+		private Die d1, d2;
 
 		public PairOfDice(Die d1, Die d2) {
 			this.d1 = d1;
