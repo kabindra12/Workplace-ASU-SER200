@@ -27,7 +27,7 @@ public class Q3 {
 		}
 		System.out.println("The average is: " + f1.format(average(userInput)));
 		System.out.println("The Standard Deviation is: " + f1.format(standardDeviation(userInput)));
-		print(userInput);
+		histogram(userInput);
 		scan.close();
 	}
 
@@ -50,12 +50,11 @@ public class Q3 {
 
 	}
 
-	private static void print(List<Integer> userInput)
-	{
-		String hash = "#";
-			
+	private static void histogram(List<Integer> userInput)
+	{	
 			for (int i=0;i<10;i++)
 			{
+				String hash = "";
 				int count = 0;
 			for(int contain : userInput)
 			{	
@@ -63,6 +62,10 @@ public class Q3 {
 			{
 				count++;
 			}
+			}
+			for (int j=0;j<count;j++)
+			{
+				hash+="#";
 			}
 			System.out.println(i+1 +" | " + hash);
 		}
