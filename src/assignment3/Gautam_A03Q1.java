@@ -46,6 +46,7 @@ public class Gautam_A03Q1{
 			radius = h;
 		}
 
+		@Override
 		public String toString() {
 			return "Sphere: " + "Radius " + radius + " and the color is: " + color;
 		}

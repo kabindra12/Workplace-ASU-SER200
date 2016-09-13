@@ -45,7 +45,8 @@ public class Base_A04Q1
     		this.height = height;
     	}
     	
-    	public String toString()
+    	@Override
+		public String toString()
     	{
     		return "A "+name+ " of radius "+radius +", area "+getArea()+", and volume "+ getVolume(); 				
     	}
@@ -91,7 +92,8 @@ public class Base_A04Q1
     		this.height = height;
     	}
     	
-    	public String toString()
+    	@Override
+		public String toString()
     	{
     		return "A "+name+ " of radius "+radius +", area "+ getArea() +", and volume "+ getVolume(); 				
     	}
