@@ -1,5 +1,14 @@
 package assignment4;
 
+/**
+ * Get the area and volume of cone and cylinder 
+ * 
+ * Completion time: 1 hr
+ * 
+ * @author Kiran Gautam
+ * @version 1.0
+ */
+
 public class Gautam_A04Q1
 {
     public static class Shape 

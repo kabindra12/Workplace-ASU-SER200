@@ -45,7 +45,7 @@ public class Gautam_A03Q3 {
 		for (int i = 0; i < userInput.size(); i++) {
 			sum += userInput.get(i);
 		}
-		return (double) sum / userInput.size();
+		return sum / userInput.size();
 	}
 
 	private static double standardDeviation(List<Integer> userInput) {
