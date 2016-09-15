@@ -1,8 +1,18 @@
-package work;
+package assignment5;
+
+/**
+ * Program to get the average of 5 user input doubles.
+ * 
+ * Completion time: 1 hr
+ * 
+ * @author Kiran Gautam
+ * @version 1.0
+ */
+
 
 import java.util.Scanner;
 
-public class Temp {
+public class Gautam_A05Q1 {
 	private static double[] inputValue = new double[5];
 
 	private static double getAverage(double[] number) {
@@ -30,8 +40,8 @@ public class Temp {
 	}
 
 	public static void main(String[] args) {
-		Temp.getUserInput();
-		System.out.println("The average is " + Temp.getAverage(inputValue));
+		Gautam_A05Q1.getUserInput();
+		System.out.println("The average is " + Gautam_A05Q1.getAverage(inputValue));
 	}
 
 }
