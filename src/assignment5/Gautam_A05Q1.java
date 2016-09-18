@@ -11,7 +11,7 @@ package assignment5;
 
 
 import java.util.Scanner;
-
+//this is just testin
 public class Gautam_A05Q1 {
 	private static double[] inputValue = new double[5];
 
